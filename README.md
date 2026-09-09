@@ -41,7 +41,7 @@ tmux new-session -A -s work
 
 Detach with `Ctrl-b`, then `d`. Reconnect and run the same command. A redeploy or restart ends running processes and tmux sessions; storage persistence is not process persistence.
 
-Railway also provides managed SFTP/SCP. This template does not install `sshd`, open port 22, or claim VS Code Remote-SSH support. See [Railway SSH documentation](https://docs.railway.com/guides/ssh).
+Railway also provides managed SFTP/SCP. This template does not install `sshd`, open port 22, or claim VS Code Remote-SSH support. See [Railway SSH documentation](https://docs.railway.com/cli/ssh).
 
 ## Install and select tools
 
