@@ -1,3 +1,5 @@
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/persistent-mise-workspace?referralCode=YqmMB-&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
 # Persistent mise Workspace on Railway
 
 A private Debian Linux workspace with persistent projects, shell settings, and developer runtimes. Connect through Railway's managed SSH; there is no public terminal, browser IDE, or SSH server to secure.
