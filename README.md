@@ -86,6 +86,8 @@ New image defaults apply to new workspaces only. An existing workspace keeps its
 
 Daily backups are configured for the volume. Check Railway's backup settings after deployment and take a manual backup before major changes. Important source code should also be pushed to Git. Backups include any secrets stored in the home directory.
 
+A CLI/API backup restore can create a new, detached volume. Wait for the restore workflow to finish, attach the restored volume at `/root` to the intended service, and wait for its replacement deployment. Verify project files, virtual environments, and installed tools before removing the original volume. Recheck the backup schedule on the restored volume. Volume operations return before their deployments and attachment metadata have fully settled.
+
 For a bad project configuration or shell profile, connect with a clean shell:
 
 ```sh
@@ -105,6 +107,8 @@ npm test
 ```
 
 The tests use fresh Docker volumes with `volume-nocopy` to reproduce Railway's empty mount. They exercise offline startup, configuration safety, real runtime execution, extra-tool and virtual-environment persistence across offline replacement, project trust, and process shutdown.
+
+See the [release verification report](docs/VERIFICATION.md) for the actual Railway redeployment, fresh-template, and backup restore results.
 
 For a local workspace:
 

@@ -77,9 +77,11 @@ Files: `TEMPLATE_OVERVIEW.md`, `TEMPLATE_DESCRIPTION.txt`, README deploy badge a
 ## Progress
 
 - [x] Approved design and Docker/GitHub/Railway access checked.
-- [ ] Exact artifacts and Docker baseline.
-- [ ] Bootstrap TDD and independent review.
-- [ ] Offline first boot and additional-tool persistence.
-- [ ] Railway SSH, redeploy, and backup verification.
-- [ ] Published template and fresh-copy checks.
-- [ ] Cleanup and final handoff.
+- [x] Exact artifacts and Docker baseline.
+- [x] Bootstrap TDD and independent review.
+- [x] Offline first boot and additional-tool persistence.
+- [x] Railway SSH, redeploy, and backup verification.
+- [x] Published template and fresh-copy checks.
+- [x] Cleanup and final handoff.
+
+Release evidence: [verification report](../VERIFICATION.md). Published template: https://railway.com/deploy/persistent-mise-workspace.
