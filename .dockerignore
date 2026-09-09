@@ -1,0 +1,10 @@
+.git
+.railway
+.github
+node_modules
+artifacts
+tests
+docs
+*.md
+*.txt
+.env*

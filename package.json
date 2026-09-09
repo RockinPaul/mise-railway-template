@@ -1,0 +1,18 @@
+{
+  "name": "mise-railway-template",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "docker build --platform linux/amd64 -t mise-workspace:test .",
+    "test": "node --test --test-concurrency=1 tests/*.test.mjs",
+    "test:bootstrap": "node --test tests/bootstrap.test.mjs",
+    "test:image": "node --test tests/image.test.mjs",
+    "test:workspace": "node --test tests/workspace.test.mjs",
+    "railway:plan": "railway config plan --file .railway/railway.ts",
+    "railway:apply": "railway config apply --file .railway/railway.ts"
+  },
+  "devDependencies": {
+    "railway": "3.11.0"
+  }
+}

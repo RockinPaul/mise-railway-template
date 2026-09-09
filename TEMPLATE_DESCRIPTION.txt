@@ -1,0 +1,1 @@
+Persistent Linux workspace with mise, Node, Python, uv, and private SSH.
