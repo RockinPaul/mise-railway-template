@@ -10,7 +10,7 @@ function shell(command) {
 
 test('image has pinned immutable tools and root owner', () => {
   assert.equal(shell('id -u; printf "%s\\n" "$HOME"; command -v mise; mise --version'),
-    '0\n/root\n/usr/local/bin/mise\n2026.9.3 linux-x64 (2026-09-08)');
+    '0\n/root\n/usr/local/bin/mise\n2026.10.9 linux-x64 (2026-10-13)');
 });
 
 test('baseline seed works at its final prefix without networking', () => {
