@@ -136,7 +136,7 @@ Image utilities remain available for repairs. If the service cannot start, inspe
 The starter runtime versions are pinned in the image; these are the template's bundled versions, not a promise that each is the newest upstream release.
 
 - [Debian 13 slim](https://www.debian.org/): the Linux/amd64 operating-system base.
-- [mise 2026.9.3](https://mise.jdx.dev/): runtime installation, version selection, and project environments.
+- [mise 2026.10.9](https://mise.jdx.dev/): runtime installation, version selection, and project environments.
 - [Node.js 24.21.0](https://nodejs.org/) and [npm](https://docs.npmjs.com/): JavaScript execution and package management.
 - [Python 3.13.15](https://www.python.org/): Python execution and virtual environments, using redistributable binaries from [python-build-standalone](https://github.com/astral-sh/python-build-standalone).
 - [uv 0.12.11](https://docs.astral.sh/uv/): Python package and environment tooling.
