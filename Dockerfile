@@ -7,8 +7,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential pkg-config libssl-dev libffi-dev zlib1g-dev \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
-ADD --checksum=sha256:6ab6646b52b83f6bbd51c9d0d3ae54264ffa90efd1ac6d7c0ec5a86bbc6a0030 --chmod=755 \
-    https://github.com/jdx/mise/releases/download/v2026.10.9/mise-v2026.10.9-linux-x64 /usr/local/libexec/mise
+ADD --checksum=sha256:f9612efcddda0ae55b62d3b6f82a6c860d5b54ebee0807d4f1a1d578055e1607 --chmod=755 \
+    https://github.com/jdx/mise/releases/download/v2026.10.11/mise-v2026.10.11-linux-x64 /usr/local/libexec/mise
 COPY --chmod=755 mise-launcher.sh /usr/local/bin/mise
 
 ENV LANG=C.UTF-8 \

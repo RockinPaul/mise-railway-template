@@ -6,7 +6,7 @@ A private Debian Linux workspace with persistent projects, shell settings, and d
 
 ## Included
 
-- Debian 13 slim (Linux/amd64), mise 2026.10.9, Node 24.21.0, Python 3.13.15, and uv 0.12.11.
+- Debian 13 slim (Linux/amd64), mise 2026.10.11, Node 24.21.0, Python 3.13.15, and uv 0.12.11.
 - Bash, Git, SSH client, curl, jq, ripgrep, tmux, archive utilities, and common C/C++ build dependencies.
 - One persistent `/root` volume, initially 5000 MB, with daily backups.
 - One always-on service, with starting limits of 2 vCPU and 2 GiB memory. These are caps, not reserved resources or a monthly price guarantee.
