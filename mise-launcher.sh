@@ -1,6 +1,6 @@
 #!/bin/bash
 # mise 2026.9.3 auto-approved config trust when CI was true, even in paranoid mode. 2026.10.9
-# no longer does in paranoid mode, but still does with paranoid off (docs/ARTIFACTS.md).
+# and later no longer do in paranoid mode, but still do with paranoid off (docs/ARTIFACTS.md).
 # Refuse that implicit approval; do not silently change CI for child programs.
 case "${CI:-false}" in
     ''|0|false|FALSE) ;;
